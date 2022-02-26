@@ -34,8 +34,7 @@ public class UserResource {
         
         WebMvcLinkBuilder linkToUser = linkTo(methodOn(this.getClass()).retriveAllUsers()); 
          model.add(linkToUser.withRel("all-users"));
-        WebMvcLinkBuilder linkToDeleteUser = linkTo(methodOn(this.getClass()).deleteUser(id));
-        model.add(linkToDeleteUser.withRel("delete-User"));
+        
     	return model;
         
     }
