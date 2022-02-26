@@ -1,4 +1,4 @@
-package com.malik.rest.webservices.restfulwebservices;
+package com.malik.rest.webservices.restfulwebservices.helloworld;
 
 public class HelloWorldBean {
     private String message;
